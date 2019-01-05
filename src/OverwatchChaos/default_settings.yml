@@ -158,7 +158,41 @@ heroes:
             no_scope: false
             clip_size_scalar: 100
             no_reload: false
-    bastion: true
+    bastion:
+        abilities:
+            reconfigure: true
+            self_repair:
+                enabled: true
+                maximum_time: 100
+                recharge_rate: 100
+            quick_melee: true
+            ultimate_ability: true
+            ultimate_generation:
+                overall: 100
+                combat: 100
+                passive: 100
+            spawn_with_ultimate: false
+            ultimate_duration: 100
+            infinite_ultimate_duration: false
+            ultimate_knockback_scalar: 100
+        combat:
+            damage:
+                dealt: 100
+                received: 100
+            healing:
+                dealt: 100
+                received: 100
+            health: 100
+            jump_vertical_speed: 100
+            movement_gravity: 100
+            movement_speed: 100
+            projectile_gravity: 100
+            projectile_speed: 100
+            headshots_only: false
+        weapons:
+            primary_fire: enabled
+            clip_size_scalar: 100
+            no_reload: false
     brigitte: true
     dva: true
     doomfist: true
