@@ -193,7 +193,46 @@ heroes:
             primary_fire: enabled
             clip_size_scalar: 100
             no_reload: false
-    brigitte: true
+    brigitte:
+        abilities:
+            barrier_shield:
+                enabled: true
+                cooldown_time: 100
+                recharge_rate: 100
+            repair_pack:
+                enabled: true
+                cooldown_time: 100
+            shield_bash:
+                enabled: true
+                cooldown_time: 100
+                knockback_scalar: 100
+            whip_shot:
+                enabled: true
+                cooldown_time: 100
+                knockback_scalar: 100
+            quick_melee: true
+            ultimate_ability: true
+            ultimate_generation:
+                overall: 100
+                combat: 100
+                passive: 100
+            spawn_with_ultimate: false
+        combat:
+            damage:
+                dealt: 100
+                received: 100
+            healing:
+                dealt: 100
+                received: 100
+            health: 100
+            jump_vertical_speed: 100
+            movement_gravity: 100
+            movement_speed: 100
+            projectile_gravity: 100
+            projectile_speed: 100
+            headshots_only: false
+        weapons:
+            primary_fire: enabled
     dva: true
     doomfist: true
     genji: true
