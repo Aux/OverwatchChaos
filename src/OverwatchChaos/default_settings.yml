@@ -1,0 +1,110 @@
+﻿#
+# All percentages are 10-500 unless otherwise specified
+#
+#
+#
+
+
+modes:
+    all:
+        general:
+            enemy_health_bars: true
+            #game_mode_start: all slots filled / immediate / manual
+            health_pack_respawn_time: 100
+            kill_cam: true
+            kill_feed: true
+            skins: true
+            #spawn_health_packs: by mode / true / false
+        heroes:
+            allow_hero_switching: true
+            #hero_limit: 1 per team / 2 per team / 1 per game / 2 per game / off
+            #limit_roles: off / 2 per team
+            respawn_as_random: false
+            respawn_time_scalar: 100 #Can only set 0-100
+    assault: #2cp
+        enabled: true
+        capture_speed_modifier: 100
+        competitive_rules: false
+    assault_escort: #hybrid
+        enabled: true
+        capture_speed_modifier: 100
+        competitive_rules: false
+        payload_speed_modifier: 100
+    control: #koth
+        enabled: true
+        capture_speed_modifier: 100
+        competitive_rules: false
+        #limit_valid_control_points: all / 1st / 2nd / 3rd
+        #score_to_win: 1 / 2 / 3
+        scoring_speed_modifier: 100
+    escort:
+        enabled: true
+        competitive_rules: false
+        payload_speed_modifier: 100
+    #capture_the_flag:
+    #deathmatch:
+    #elimination:
+    #team_deathmatch:
+    #skirmish:
+
+heroes:
+    general:
+        ability_cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimte_duration: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        clip_size_scalar: 100
+        no_reload: false
+    roster:
+        ana: true
+        ashe: true
+        bastion: true
+        brigitte: true
+        dva: true
+        doomfist: true
+        genji: true
+        hanzo: true
+        junkrat: true
+        lucio: true
+        mccree: true
+        mei: true
+        mercy: true
+        moira: true
+        orisa: true
+        pharah: true
+        reaper: true
+        reinhardt: true
+        roadhog: true
+        soldier76: true
+        sombra: true
+        symmetra: true
+        torbjorn: true
+        tracer: true
+        widowmaker: true
+        winston: true
+        wrecking_ball: true
+        zarya: true
+        zenyatta: true
+
