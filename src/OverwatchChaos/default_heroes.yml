@@ -66,7 +66,7 @@ ana:
         projectile_speed: 100
         headshots_only: false
     weapons:
-        primary_fire: enabled
+        primary_fire: true
         no_automatic_fire: false
         no_scope: false
         clip_size_scalar: 100
@@ -108,7 +108,7 @@ ashe:
         projectile_speed: 100
         headshots_only: false
     weapons:
-        primary_fire: enabled
+        primary_fire: true
         no_automatic_fire: false
         no_scope: false
         clip_size_scalar: 100
@@ -145,7 +145,7 @@ bastion:
         projectile_speed: 100
         headshots_only: false
     weapons:
-        primary_fire: enabled
+        primary_fire: true
         clip_size_scalar: 100
         no_reload: false
 brigitte:
@@ -187,12 +187,196 @@ brigitte:
         projectile_speed: 100
         headshots_only: false
     weapons:
-        primary_fire: enabled
-dva: true
-doomfist: true
-genji: true
-hanzo: true
-junkrat: true
+        primary_fire: true
+dva: 
+    abilities:
+        boosters:
+            enabled: true
+            cooldown_time: 100
+        defense_matrix:
+            enabled: true
+            maximum_time: 100
+            recharge_rate: 100
+        micro_missiles:
+            enabled: true
+            cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        boosters_knockback_scalar: 100
+        call_mech_knockback_scalar: 100
+        spawn_without_mech: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+doomfist: 
+    abilities:
+        rising_uppercut:
+            enabled: true
+            cooldown_time: 100
+            knockback_scalar: 100
+        rocket_punch:
+            enabled: true
+            cooldown_time: 100
+            knockback_scalar: 100
+        seismic_slam:
+            enabled: true
+            cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+        meteor_strike_knockback_scalar: 100
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        clip_size_scalar: 100
+        ammo_regen_time_scalar: 100
+        no_reload: false
+genji: 
+    abilities:
+        deflect:
+            enabled: true
+            cooldown_time: 100
+        swift_strike:
+            enabled: true
+            cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        secondary_fire: true
+        clip_size_scalar: 100
+        no_reload: false
+hanzo: 
+    abilities:
+        lunge:
+            enabled: true
+            cooldown_time: 100
+            distance_scalar: 100
+        sonic_arrow:
+            enabled: true
+            cooldown_time: 100
+        storm_arrow:
+            enabled: true
+            cooldown_time: 100
+            quantity: 6 # 3 to 12
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+junkrat: 
+    abilities:
+        concussion_mine:
+            enabled: true
+            cooldown_time: 100
+            knockback_scalar: 100
+        steel_trap:
+            enabled: true
+            cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        frag_launcher_knockback_scalar: 100
+        clip_size_scalar: 100
+        no_reload: false
 lucio: true
 mccree: true
 mei: true
