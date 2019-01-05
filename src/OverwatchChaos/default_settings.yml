@@ -59,7 +59,7 @@ heroes:
                 passive: 100
             spawn_with_ultimate: false
             ultimate_duration: 100
-            infinite_ultimte_duration: false
+            infinite_ultimate_duration: false
         combat:
             damage:
                 dealt: 100
@@ -116,7 +116,48 @@ heroes:
             no_scope: false
             clip_size_scalar: 100
             no_reload: false
-    ashe: true
+    ashe: 
+        enabled:
+            team1: true
+            team2: true
+        abilities:
+            coach_gun: true
+            coach_gun_cooldown_time: 100
+            coach_gun_knockback_scalar:
+                enemy: 100
+                self: 100
+            dynamite: true
+            dynamite_cooldown_time: 100
+            dynamite_fuse_time_scalar: 100
+            quick_melee: true
+            ultimate_ability: true
+            ultimate_generation:
+                overall: 100
+                combat: 100
+                passive: 100
+            spawn_with_ultimate: false
+            ultimate_duration: 100
+            infinite_ultimate_duration: false
+        combat:
+            damage:
+                dealt: 100
+                received: 100
+            healing:
+                dealt: 100
+                received: 100
+            health: 100
+            jump_vertical_speed: 100
+            movement_gravity: 100
+            movement_speed: 100
+            projectile_gravity: 100
+            projectile_speed: 100
+            headshots_only: false
+        weapons:
+            primary_fire: enabled
+            no_automatic_fire: false
+            no_scope: false
+            clip_size_scalar: 100
+            no_reload: false
     bastion: true
     brigitte: true
     dva: true
@@ -144,4 +185,3 @@ heroes:
     wrecking_ball: true
     zarya: true
     zenyatta: true
-
