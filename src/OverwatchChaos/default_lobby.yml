@@ -1,0 +1,13 @@
+﻿map:
+    #rotation: mirrormatch / game / paused
+    #return_to_lobby: mirrormatch / game / never
+team:
+    #team_balancing: off / mirrormatch / never
+    swap_teams_after_match: true
+    team1_max_players: 6 # 1 to 6
+    team2_max_players: 6 # 1 to 6
+    max_ffa_players: 12 # 1 to 12
+    max_spectators: 2 # 0 - 12
+match:
+    voice_chat: false
+    pause_on_disconnect: false

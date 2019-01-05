@@ -1,0 +1,41 @@
+﻿assault:
+    hanamura: true
+    horizon_lunar_colony: true
+    temple_of_anubis: true
+    volskaya_industries: true
+assault_escort:
+    blizzard_world: true
+    eichenwalde: true
+    hollywood: true
+    kings_row: true
+    numbani: true
+capture_the_flag:
+    ayutthaya: true
+    ilios_lighthouse: true
+    ilios_ruins: true
+    ilios_well: true
+    lijiang_control_center: true
+    lijiang_garden: true
+    lijiang_night_market: true
+    nepal_scantum: true
+    nepal_shrine: true
+    nepal_village: true
+    oasis_city_center: true
+    oasis_gardens: true
+    oasis_university: true
+control:
+    busan: true
+    ilios: true
+    lijiang_tower: true
+    nepal: true
+    oasis: true
+#deathmatch:
+#eliminiation:
+escort:
+    dorado: true
+    junkertown: true
+    rialto: true
+    route_66: true
+    watchpoint_gibraltar: true
+#skirmish:
+#team_deathmatch:

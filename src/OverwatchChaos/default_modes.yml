@@ -1,0 +1,61 @@
+﻿#
+# All percentages are 10-500 unless otherwise specified
+#
+#
+#
+
+all:
+    general:
+        enemy_health_bars: true
+        #game_mode_start: all slots filled / immediate / manual
+        health_pack_respawn_time: 100
+        kill_cam: true
+        kill_feed: true
+        skins: true
+        #spawn_health_packs: by mode / true / false
+    heroes:
+        allow_hero_switching: true
+        #hero_limit: 1 per team / 2 per team / 1 per game / 2 per game / off
+        #limit_roles: off / 2 per team
+        respawn_as_random: false
+        respawn_time_scalar: 100 #Can only set 0-100
+assault: #2cp
+    enabled: true
+    capture_speed_modifier: 100
+    competitive_rules: false
+assault_escort: #hybrid
+    enabled: true
+    capture_speed_modifier: 100
+    competitive_rules: false
+    payload_speed_modifier: 100
+control: #koth
+    enabled: true
+    capture_speed_modifier: 100
+    competitive_rules: false
+    #limit_valid_control_points: all / 1st / 2nd / 3rd
+    #score_to_win: 1 / 2 / 3
+    scoring_speed_modifier: 100
+escort:
+    enabled: true
+    competitive_rules: false
+    payload_speed_modifier: 100
+capture_the_flag:
+    enabled: false
+    damage_interrupts_flag_interaction: false
+    #flag_carrier_abilities: restricted / all / none
+    flag_dropped_lock_time: 5.0 # 0.0 to 10.0
+    flag_pickup_time: 0.0 # 0.0 to 5.0
+    flag_return_time: 4.0 # 0.0 to 5.0
+    flag_score_respawn_time: 15.0 # 0.0 to 20.0
+    game_length: 8 # 5 to 15
+    score_to_win: 3 # 1 to 9
+    team_needs_flag_at_base_to_score: false
+deathmatch:
+    enabled: false
+    game_length: 10 # 5 to 15
+    score_to_win: 20 # 1 to 50
+    self_initiated_respawn: true
+#elimination:
+#team_deathmatch:
+skirmish:
+    enabled: false

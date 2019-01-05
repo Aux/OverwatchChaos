@@ -1,0 +1,215 @@
+﻿#
+# All percentages are 10-500 unless otherwise specified
+#
+
+general:
+    abilities:
+        ability_cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        clip_size_scalar: 100
+        no_reload: false
+
+ana:
+    enabled:
+        team1: true
+        team2: true
+    abilities:
+        biotic_grenade:
+            enabled: true
+            cooldown_time: 100
+        sleep_dart:
+            enabled: true
+            cooldown_time: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: enabled
+        no_automatic_fire: false
+        no_scope: false
+        clip_size_scalar: 100
+        no_reload: false
+ashe: 
+    enabled:
+        team1: true
+        team2: true
+    abilities:
+        coach_gun: true
+        coach_gun_cooldown_time: 100
+        coach_gun_knockback_scalar:
+            enemy: 100
+            self: 100
+        dynamite: true
+        dynamite_cooldown_time: 100
+        dynamite_fuse_time_scalar: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: enabled
+        no_automatic_fire: false
+        no_scope: false
+        clip_size_scalar: 100
+        no_reload: false
+bastion:
+    abilities:
+        reconfigure: true
+        self_repair:
+            enabled: true
+            maximum_time: 100
+            recharge_rate: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+        ultimate_duration: 100
+        infinite_ultimate_duration: false
+        ultimate_knockback_scalar: 100
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: enabled
+        clip_size_scalar: 100
+        no_reload: false
+brigitte:
+    abilities:
+        barrier_shield:
+            enabled: true
+            cooldown_time: 100
+            recharge_rate: 100
+        repair_pack:
+            enabled: true
+            cooldown_time: 100
+        shield_bash:
+            enabled: true
+            cooldown_time: 100
+            knockback_scalar: 100
+        whip_shot:
+            enabled: true
+            cooldown_time: 100
+            knockback_scalar: 100
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 100
+            combat: 100
+            passive: 100
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 100
+            received: 100
+        healing:
+            dealt: 100
+            received: 100
+        health: 100
+        jump_vertical_speed: 100
+        movement_gravity: 100
+        movement_speed: 100
+        projectile_gravity: 100
+        projectile_speed: 100
+        headshots_only: false
+    weapons:
+        primary_fire: enabled
+dva: true
+doomfist: true
+genji: true
+hanzo: true
+junkrat: true
+lucio: true
+mccree: true
+mei: true
+mercy: true
+moira: true
+orisa: true
+pharah: true
+reaper: true
+reinhardt: true
+roadhog: true
+soldier76: true
+sombra: true
+symmetra: true
+torbjorn: true
+tracer: true
+widowmaker: true
+winston: true
+wrecking_ball: true
+zarya: true
+zenyatta: true
