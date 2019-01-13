@@ -1,0 +1,46 @@
+﻿
+# Options for generating hero settings
+heroes:
+    enable_modify: true
+    percentages:
+        lower_bound: 0.5
+        upper_bound: 2.0
+    
+    # Allow the generator to modify values of properties
+    modify: 
+        # Abilities
+        cooldown_time: true
+        ultimate_generation: true
+        ultimate_duration: true
+
+        # Combat
+        damage: true
+        healing: true
+        health: true
+        jump_vertical_speed: true
+        movement_gravity: true
+        movement_speed: true
+        projectile_gravity: true
+        projectile_speed: true
+
+        # Weapons
+        clip_size_scalar: true
+
+    # Allow the generator to enable or disable properties
+    allow_toggle: 
+        # Abilities
+        quick_melee: true
+        ultimate_ability: true
+        spawn_with_ultimate: true
+        infinite_ultimate_duration: true
+
+        # Combat
+        headshots_only: true
+
+        # Weapons
+        primary_fire: true
+        no_reload: true
+
+#modify_lobby: false
+#modify_maps: false
+#modify_modes: false

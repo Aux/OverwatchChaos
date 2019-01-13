@@ -1,12 +1,13 @@
 ﻿#
-# All percentages are 10-500 unless otherwise specified
+# All percentages are 0.1-5.0 unless otherwise specified
+# 0.1 = 10% and 5.0 = 500%
 #
 
 all:
     general:
         enemy_health_bars: true
         #game_mode_start: all slots filled / immediate / manual
-        health_pack_respawn_time: 100
+        health_pack_respawn_time: 1.0
         kill_cam: true
         kill_feed: true
         skins: true
@@ -16,27 +17,27 @@ all:
         #hero_limit: 1 per team / 2 per team / 1 per game / 2 per game / off
         #limit_roles: off / 2 per team
         respawn_as_random: false
-        respawn_time_scalar: 100 #Can only set 0-100
+        respawn_time_scalar: 1.0 #Can only set 0-1.0
 assault: #2cp
     enabled: true
-    capture_speed_modifier: 100
+    capture_speed_modifier: 1.0
     competitive_rules: false
 assault_escort: #hybrid
     enabled: true
-    capture_speed_modifier: 100
+    capture_speed_modifier: 1.0
     competitive_rules: false
-    payload_speed_modifier: 100
+    payload_speed_modifier: 1.0
 control: #koth
     enabled: true
-    capture_speed_modifier: 100
+    capture_speed_modifier: 1.0
     competitive_rules: false
     #limit_valid_control_points: all / 1st / 2nd / 3rd
     #score_to_win: 1 / 2 / 3
-    scoring_speed_modifier: 100
+    scoring_speed_modifier: 1.0
 escort:
     enabled: true
     competitive_rules: false
-    payload_speed_modifier: 100
+    payload_speed_modifier: 1.0
 capture_the_flag:
     enabled: false
     damage_interrupts_flag_interaction: false

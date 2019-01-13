@@ -1,399 +1,681 @@
 ﻿#
-# All percentages are 10-500 unless otherwise specified
+# All percentages are 0.1-5.0 unless otherwise specified
+# 0.1 = 10% and 5.0 = 500%
 #
 
 general:
     abilities:
-        ability_cooldown_time: 100
+        ability_cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
-        clip_size_scalar: 100
+        clip_size_scalar: 1.0
         no_reload: false
 
 ana:
-    enabled:
-        team1: true
-        team2: true
+    #team1: true
+    #team2: true
     abilities:
         biotic_grenade:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         sleep_dart:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
         no_automatic_fire: false
         no_scope: false
-        clip_size_scalar: 100
+        clip_size_scalar: 1.0
         no_reload: false
 ashe: 
-    enabled:
-        team1: true
-        team2: true
+    #team1: true
+    #team2: true
     abilities:
         coach_gun: true
-        coach_gun_cooldown_time: 100
+        coach_gun_cooldown_time: 1.0
         coach_gun_knockback_scalar:
-            enemy: 100
-            self: 100
+            enemy: 1.0
+            self: 1.0
         dynamite: true
-        dynamite_cooldown_time: 100
-        dynamite_fuse_time_scalar: 100
+        dynamite_cooldown_time: 1.0
+        dynamite_fuse_time_scalar: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
         no_automatic_fire: false
         no_scope: false
-        clip_size_scalar: 100
+        clip_size_scalar: 1.0
         no_reload: false
 bastion:
+    #team1: true
+    #team2: true
     abilities:
         reconfigure: true
         self_repair:
             enabled: true
-            maximum_time: 100
-            recharge_rate: 100
+            maximum_time: 1.0
+            recharge_rate: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
-        ultimate_knockback_scalar: 100
+        ultimate_knockback_scalar: 1.0
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
-        clip_size_scalar: 100
+        clip_size_scalar: 1.0
         no_reload: false
 brigitte:
+    #team1: true
+    #team2: true
     abilities:
         barrier_shield:
             enabled: true
-            cooldown_time: 100
-            recharge_rate: 100
+            cooldown_time: 1.0
+            recharge_rate: 1.0
         repair_pack:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         shield_bash:
             enabled: true
-            cooldown_time: 100
-            knockback_scalar: 100
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
         whip_shot:
             enabled: true
-            cooldown_time: 100
-            knockback_scalar: 100
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
 dva: 
+    #team1: true
+    #team2: true
     abilities:
         boosters:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         defense_matrix:
             enabled: true
-            maximum_time: 100
-            recharge_rate: 100
+            maximum_time: 1.0
+            recharge_rate: 1.0
         micro_missiles:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        boosters_knockback_scalar: 100
-        call_mech_knockback_scalar: 100
+        boosters_knockback_scalar: 1.0
+        call_mech_knockback_scalar: 1.0
         spawn_without_mech: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
 doomfist: 
+    #team1: true
+    #team2: true
     abilities:
         rising_uppercut:
             enabled: true
-            cooldown_time: 100
-            knockback_scalar: 100
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
         rocket_punch:
             enabled: true
-            cooldown_time: 100
-            knockback_scalar: 100
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
         seismic_slam:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
-        meteor_strike_knockback_scalar: 100
+        meteor_strike_knockback_scalar: 1.0
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
-        clip_size_scalar: 100
-        ammo_regen_time_scalar: 100
+        clip_size_scalar: 1.0
+        ammo_regen_time_scalar: 1.0
         no_reload: false
 genji: 
+    #team1: true
+    #team2: true
     abilities:
         deflect:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         swift_strike:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
         secondary_fire: true
-        clip_size_scalar: 100
+        clip_size_scalar: 1.0
         no_reload: false
 hanzo: 
+    #team1: true
+    #team2: true
     abilities:
         lunge:
             enabled: true
-            cooldown_time: 100
-            distance_scalar: 100
+            cooldown_time: 1.0
+            distance_scalar: 1.0
         sonic_arrow:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         storm_arrow:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
             quantity: 6 # 3 to 12
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
 junkrat: 
+    #team1: true
+    #team2: true
     abilities:
         concussion_mine:
             enabled: true
-            cooldown_time: 100
-            knockback_scalar: 100
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
         steel_trap:
             enabled: true
-            cooldown_time: 100
+            cooldown_time: 1.0
         quick_melee: true
         ultimate_ability: true
         ultimate_generation:
-            overall: 100
-            combat: 100
-            passive: 100
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
         spawn_with_ultimate: false
-        ultimate_duration: 100
+        ultimate_duration: 1.0
         infinite_ultimate_duration: false
     combat:
         damage:
-            dealt: 100
-            received: 100
+            dealt: 1.0
+            received: 1.0
         healing:
-            dealt: 100
-            received: 100
-        health: 100
-        jump_vertical_speed: 100
-        movement_gravity: 100
-        movement_speed: 100
-        projectile_gravity: 100
-        projectile_speed: 100
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
         headshots_only: false
     weapons:
         primary_fire: true
-        frag_launcher_knockback_scalar: 100
-        clip_size_scalar: 100
+        frag_launcher_knockback_scalar: 1.0
+        clip_size_scalar: 1.0
         no_reload: false
-lucio: true
-mccree: true
-mei: true
-mercy: true
-moira: true
-orisa: true
-pharah: true
-reaper: true
-reinhardt: true
-roadhog: true
-soldier76: true
-sombra: true
-symmetra: true
-torbjorn: true
-tracer: true
-widowmaker: true
-winston: true
-wrecking_ball: true
-zarya: true
-zenyatta: true
+lucio:
+    #team1: true
+    #team2: true
+    abilities:
+        amp_it_up:
+            enabled: true
+            cooldown_time: 1.0
+        crossfade:
+            enabled: true
+        soundwave:
+            enabled: true
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        clip_size_scalar: 1.0
+        no_reload: false
+mccree: 
+    #team1: true
+    #team2: true
+    abilities:
+        combat_roll:
+            enabled: true
+            cooldown_time: 1.0
+        flashbang:
+            enabled: true
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        secondary_fire: true
+        clip_size_scalar: 1.0
+        no_reload: false
+mei: 
+    #team1: true
+    #team2: true
+    abilities:
+        cryo_freeze:
+            enabled: true
+            cooldown_time: 1.0
+        ice_wall:
+            enabled: true
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+        blizzard_freeze_minimum: 0.5 # 0.0 to 1.0
+        blizzard_freeze_scalar: 1.0
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        freeze_stacking: false
+        secondary_fire: true
+        freeze_duration_scalar: 1.0
+        freeze_minimum: 0.3 # 0.0 to 1.0
+        clip_size_scalar: 1.0
+        no_reload: false
+mercy: 
+    #team1: true
+    #team2: true
+    abilities:
+        guardian_angel:
+            enabled: true
+            cooldown_time: 1.0
+        regeneration:
+            enabled: true
+        resurrect:
+            enabled: true
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        #weapons_enabled: all / staff / gun
+        primary_fire: true
+        secondary_fire: true
+        clip_size_scalar: 1.0
+        no_reload: false
+moira: 
+    #team1: true
+    #team2: true
+    abilities:
+        biotic_orb:
+            enabled: true
+            cooldown_time: 1.0
+            max_damage_scalar: 1.0
+            max_healing_scalar: 1.0
+        fade:
+            enabled: true
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+        ultimate_duration: 1.0
+        infinite_ultimate_duration: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        secondary_fire: true
+        biotic_energy_maximum: 1.0
+        biotic_energy_recharge_rate: 1.0
+orisa: 
+    #team1: true
+    #team2: true
+    abilities:
+        fortify:
+            enabled: true
+            cooldown_time: 1.0
+        halt:
+            enabled: true
+            cooldown_time: 1.0
+        protective_barrier:
+            enabled: true
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        clip_size_scalar: 1.0
+        no_reload: false
+pharah: 
+    #team1: true
+    #team2: true
+    abilities:
+        concussive_blast:
+            enabled: true
+            cooldown_time: 1.0
+            knockback_scalar: 1.0
+        hover_jets:
+            enabled: true
+            maximum_time: 1.0
+            recharge_rate: 1.0
+            unlimited_fuel: false
+            vertical_speed_scalar: 1.0
+        jump_jet:
+            enabled: true
+            acceleration_scalar: 1.0
+            cooldown_time: 1.0
+        quick_melee: true
+        ultimate_ability: true
+        ultimate_generation:
+            overall: 1.0
+            combat: 1.0
+            passive: 1.0
+        spawn_with_ultimate: false
+    combat:
+        damage:
+            dealt: 1.0
+            received: 1.0
+        healing:
+            dealt: 1.0
+            received: 1.0
+        health: 1.0
+        jump_vertical_speed: 1.0
+        movement_gravity: 1.0
+        movement_speed: 1.0
+        projectile_gravity: 1.0
+        projectile_speed: 1.0
+        headshots_only: false
+    weapons:
+        primary_fire: true
+        rocket_launcher_knockback_scalar: 1.0
+        clip_size_scalar: 1.0
+        no_reload: false
+#reaper: true
+#reinhardt: true
+#roadhog: true
+#soldier76: true
+#sombra: true
+#symmetra: true
+#torbjorn: true
+#tracer: true
+#widowmaker: true
+#winston: true
+#wrecking_ball: true
+#zarya: true
+#zenyatta: true
