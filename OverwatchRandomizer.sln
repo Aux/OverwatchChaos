@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchChaos", "src\OverwatchChaos\OverwatchChaos.csproj", "{8AD0B215-E1F7-446D-A796-6169DFFF497B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchRandomizer", "src\OverwatchRandomizer\OverwatchRandomizer.csproj", "{8AD0B215-E1F7-446D-A796-6169DFFF497B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

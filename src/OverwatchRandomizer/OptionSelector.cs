@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace OverwatchChaos
+namespace OverwatchRandomizer
 {
     public class OptionSelector
     {

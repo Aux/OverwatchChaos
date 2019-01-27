@@ -1,6 +1,6 @@
-# OverwatchChaos
+# OverwatchRandomizer
 A small application to generate random custom game settings
 
 <p align="center">
-  <img src="chaos_generator_example.png">
+  <img src="example.png">
 </p>
